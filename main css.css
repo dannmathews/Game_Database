@@ -1,0 +1,170 @@
+*{
+	margin:0;
+	padding:0;
+	color: #000;
+}
+#wrapper {
+		width:auto;
+		height:1200px;
+		background:#CCC;
+}
+#headerTop {
+	background:url(images/nav-top.png);
+	width:100%;
+	height:170px;
+}
+#navbar {
+	background:url(images/nav-bg.png);
+	height: 51px;
+	margin:0px auto;
+	pading:0;
+}
+#lavaWrapper {
+	margin: 0 auto;
+	width:auto;
+	color: #FFF;
+	
+}
+#copyright {
+	position:relative;
+	
+	left:342px;
+	/*top:1153px;*/
+	width:468px;
+	height:44px;
+	z-index:6;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #FFF;
+}
+#terms.privacy {
+	position:absolute;
+	left:342px;
+	top:1153px;
+	width:auto;
+	height:auto;
+	z-index:5;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #FFF;
+}
+#footer {
+	background: url(images/footer_02.png);
+	top: 1150px;
+	height: 50px;
+	position: absolute;
+	z-index: 5;
+	width: 1262px;
+	margin:0px auto;
+	left: 0px;
+	
+	
+}
+#logo {
+	top:500px;
+	height: 196px;
+	position: absolute;
+	z-index: 5;
+	width: 205px;
+	margin: 0px auto;
+	left: -3px;
+	top: 56px;
+	
+}
+#middleNav {
+	background: url(images/middle-nav.png);
+	top: 192px;
+	min-height: 938px;
+	position: absolute;
+	z-index: 5;
+	width: 1172px;
+	margin:50px auto;
+	left: 38px;
+	
+	
+}
+
+#FollowUs {
+	position:absolute;
+	left:903px;
+	top:906px;
+	width:292px;
+	height:194px;
+	z-index:7;
+	font-size: 24px;
+	font-weight: bold;
+	color: #2D2D2D;
+}
+
+
+/***************************************************************/
+/* Styles for the entire LavaLamp menu */
+
+ .lavaLamp {
+
+	position: relative;
+	height: 51px;
+	margin:0 auto;
+	width: 520px;
+	padding:0;
+	overflow: visible;
+	
+
+ }
+
+ /* Force the list to flow horizontally */
+
+ .lavaLamp li {
+
+	float: left;
+	list-style: none;
+
+ }
+
+ /* Represents the background of the highlighted menu-item. */
+
+ .lavaLamp li.back {
+
+ background:url(../images/lava.png) no-repeat right -30px;
+ width: 9px;
+ height: 30px;
+ z-index: 8;
+ position: absolute;
+ top:10px;
+
+ }
+
+ .lavaLamp li.back .left {
+	background:url(../images/lava.png) no-repeat top left;
+	height: 30px;
+	margin-right: 9px;
+
+ }
+
+ /* Styles for each menu-item. */
+
+ .lavaLamp li a { 
+
+	position: relative;
+	overflow: hidden;
+	text-decoration: none;
+	text-transform: uppercase;
+	font: bold 14px arial;
+	color: #333; outline: none;
+	text-align: center;
+	padding:18px 0px;
+	z-index: 10;
+	letter-spacing: 0;
+	float: left;
+	display: block;
+	margin: auto 20px;
+
+ }
+
+ .lavaLamp li a:hover {
+	color:#FFF;
+	text-shadow:1px 1px 2px #000;
+	font-size: 16px;
+ 
+ }
+.search {
+	color: #FFF;
+}
